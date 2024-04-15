@@ -54,6 +54,7 @@ html {
 .row {
     padding-left: 500px;
     width: 300px;
+    float:left;
 
 }
   .column {
@@ -80,24 +81,6 @@ html {
     padding: 0 16px;
   }
   
-  
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
@@ -108,6 +91,7 @@ html {
   /*****************/
 
 footer {
+    position: bottom;
     background-color: #333;
     color: white;
     padding: 20px;
@@ -115,6 +99,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 0.8em;
+    width: 97%;
 }
 
 .social-media {
@@ -132,7 +117,6 @@ footer {
     flex: 1;
     text-align: center; 
 }
-
 
 .map {
     width: 300px; 
